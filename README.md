@@ -92,4 +92,12 @@ No real client or confidential information is used.
 
 - Task 1: Backup script and initial backup archive — Completed.
 - Task 2: Restore script and simulated ransomware recovery test — Completed.
-- Task 3: Final report and GitHub Pages — Pending.
+- Task 3: Technical report and GitHub Pages website — Completed.
+
+## Project Website
+
+Live website: https://haroon2895.github.io/justice-co-backup/
+
+## Technical Report
+
+See [Backup and Recovery Technical Report](Justice_and_Co_Backup_Recovery_Technical_Report.pdf).
