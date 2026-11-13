@@ -1,0 +1,15 @@
+JUSTICE & CO. LAW ASSOCIATES
+CASE FILE: 002
+CLIENT: Sarah Johnson
+CASE TYPE: Contract Dispute
+STATUS: In Progress
+
+CASE SUMMARY:
+The client has reported a disagreement regarding
+the terms of a business contract.
+
+NEXT ACTION:
+Review the contract and identify disputed clauses.
+
+NOTE:
+This is fictional sample data created for cybersecurity training.

@@ -1,0 +1,15 @@
+JUSTICE & CO. LAW ASSOCIATES
+CASE FILE: 001
+CLIENT: John Smith
+CASE TYPE: Property Dispute
+STATUS: Under Review
+
+CASE SUMMARY:
+The client has reported a property ownership dispute
+involving a residential property.
+
+NEXT ACTION:
+Review the ownership documentation.
+
+NOTE:
+This is fictional sample data created for cybersecurity training.
