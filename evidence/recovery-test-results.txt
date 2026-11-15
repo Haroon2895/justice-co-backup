@@ -1,0 +1,37 @@
+JUSTICE & CO. LAW ASSOCIATES
+BACKUP AND RECOVERY TEST EVIDENCE
+
+Test date: 15 November 2026
+
+1. FRESH BACKUP
+Command: ./backup.sh
+Archive created: backups/backup_20261115_111505.zip
+
+2. ORIGINAL FILES PRESERVED
+Reference folder: /tmp/justice-original-data-20261115/
+Files:
+- case001.txt
+- case002.txt
+- case003.txt
+
+3. SIMULATED RANSOMWARE
+The contents of all three data files were replaced with a harmless
+test message to simulate file corruption.
+
+4. RESTORATION
+Command: ./restore.sh
+Result: Recovery completed successfully.
+All three files were extracted from the new backup archive.
+
+5. INTEGRITY VERIFICATION
+Command:
+diff -r /tmp/justice-original-data-20261115/ data/
+
+Result:
+No differences found.
+
+Exit code: 0
+
+CONCLUSION:
+All three restored files are identical to their original reference
+copies. The backup and recovery test passed.
