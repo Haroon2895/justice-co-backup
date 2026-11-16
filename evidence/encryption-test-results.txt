@@ -1,0 +1,46 @@
+JUSTICE & CO. LAW ASSOCIATES
+BACKUP ENCRYPTION AND DECRYPTION TEST
+
+Test date: 16 November 2026
+
+Original archive:
+backups/backup_20261115_111505.zip
+
+Encryption method:
+GPG symmetric encryption using AES-256.
+
+Encryption command:
+gpg --symmetric --cipher-algo AES256 backups/backup_20261115_111505.zip
+
+Encrypted archive:
+backups/backup_20261115_111505.zip.gpg
+
+Encryption verification:
+The file command identified the encrypted archive as
+PGP symmetric key encrypted data using AES-256.
+
+Decryption:
+The encrypted archive was successfully decrypted using
+the correct passphrase.
+
+Comparison:
+cmp backups/backup_20261115_111505.zip /tmp/justice-backup-decrypted-test.zip
+
+Comparison exit code: 0
+
+Result:
+The decrypted archive was byte-for-byte identical to
+the original ZIP archive.
+
+ZIP integrity test:
+unzip -t /tmp/justice-backup-decrypted-test.zip
+
+Result:
+No errors detected in compressed data.
+
+Conclusion:
+Encryption and decryption were successful. All three
+fictional case files passed the archive integrity test.
+
+Security note:
+The passphrase was not recorded or stored in this evidence file.

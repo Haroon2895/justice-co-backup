@@ -100,4 +100,14 @@ Live website: https://haroon2895.github.io/justice-co-backup/
 
 ## Technical Report
 
-See [Backup and Recovery Technical Report](Justice_and_Co_Backup_Recovery_Technical_Report.pdf).
+See [Backup and Recovery Technical Report](Backup_Recovery_Report.pdf).
+
+## Handover Notes
+
+The project includes scripts for creating timestamped backups and restoring files from the latest available ZIP archive.
+
+To create a backup, run `./backup.sh`. To restore files, run `./restore.sh`.
+
+The backup and recovery process was tested successfully using fictional case documents. An additional AES-256 encryption test was performed using GPG.
+
+The technical report and test evidence are included in this repository. The GitHub Pages website provides access to the final PDF report.
